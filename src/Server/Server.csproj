@@ -2,10 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>9e4991be-8436-432f-9e95-d959b4b76341</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.4" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
 	<PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
 	<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.12" />
   </ItemGroup>
